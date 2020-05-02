@@ -6,4 +6,4 @@ def get_data():
 	disk = psutil.disk_usage('/')[3] #percentage of disk usage
 	return cpu, ram, disk
 
-get_data()
+print(get_data())
